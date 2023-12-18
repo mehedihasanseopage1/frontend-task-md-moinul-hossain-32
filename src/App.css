@@ -1,0 +1,55 @@
+table {
+    font-size: 14px;
+    border-collapse:collapse; 
+    border:1px solid
+}
+table td, table th {
+    border:1px solid;
+    padding: 2px;
+    width: 10px !important;
+}
+
+.tableHead{
+    background:#aaa; 
+    cursor:pointer
+}
+ 
+.draggedDiv {
+    position:absolute; 
+    background:#eee;
+}
+
+.dragging {
+    background:#eee; 
+    color:#000
+}
+
+.hovering {
+    background:#ccc; 
+    color:#555
+}
+
+.pagination{
+    display: flex !important;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+
+.text-success::before {
+    content: "Converted to deal";
+    color: #fff !important;
+    background-color: #008000 !important;
+    padding: 5px;
+    border-radius: 5px;
+}
+  
+.text-danger::before {
+    content: "Not Converted to deal";
+    color: #fff !important;
+    background-color: #ff0000 !important;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
